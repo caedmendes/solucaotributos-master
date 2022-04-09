@@ -246,6 +246,7 @@
 .f-slider-primary-item {
   color: $c-white;
   text-align: center;
+  filter: saturate(50%);
 }
 
 .f-slider-primary-item__title {

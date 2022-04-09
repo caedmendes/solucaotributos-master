@@ -1,7 +1,7 @@
 @import "../mixins.scss";
 
 header {
-  background: #fff;
+  background: rgb(12,46,63);
   border-bottom: 3px solid $c-default;
 }
 
@@ -12,12 +12,13 @@ header {
   &:after {
     content: "";
     display: block;
-    clear: both;
+    clear: both; 
   }
 }
 
 .b-logo {
   display: inline-block;
+  padding-top: 5px; 
 }
 
 .b-header-r {
@@ -87,7 +88,7 @@ header {
 
 .f-header-ico-group {
   .fa {
-    color: $c-secondary;
+    color: $c-white; 
   }
   .f-btn {
     .fa {
@@ -331,8 +332,12 @@ header {
     width: 181px;
     padding: 0 30px 0 6px;
     color: $c-primary;
+   
   }
   &:hover {
+    .fa.fa-search{
+      color: $c-secondary;
+    }
     input {
       display: block;
     }
@@ -392,6 +397,18 @@ header {
     padding-top: 11px;
   }
 }
+
+
+.f-primary-b a {
+
+  color: $c-default-link;
+  
+  &:hover {
+    color: $c-secondary;
+    
+  }
+}
+
 
 .b-header__search-box {
   position: relative;
@@ -474,7 +491,7 @@ header {
 
 .is-fixed-header {
   header {
-    background: rgba(255, 255, 255, .8);
+    background: rgba(12, 46, 63, 0.8);
     box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.2);
     top: 0;
     position: fixed;
@@ -487,12 +504,15 @@ header {
     padding-bottom: 10px;
   }
 
-  .b-logo img {
-    max-width: 110px;
+  .b-logo{
+    padding-top: 7px; 
+    img {
+      max-width: 165px;
+    }
   }
 
   .b-header-r {
-    padding-top: 5px;
+    padding-top: 8px;
   }
 
   .b-top-options-panel,
@@ -507,6 +527,12 @@ header {
   .b-header-ico {
     padding-top: 20px;
   }
+
+  .b-header-r--icon {
+    .b-header-ico-group {
+      top: 4px;
+    }
+  } 
 }
 
 .b-fa-shopping-cart {

@@ -269,10 +269,10 @@ button {
 }
 
 a {
-  color: $c-default-link;
+  color: $c-secondary;
   text-decoration: none;
   &:hover {
-    color: $c-default;
+    color: $c-default-link;
     text-decoration: none;
   }
 }

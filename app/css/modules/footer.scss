@@ -56,7 +56,8 @@ footer {
 }
 
 .b-footer-logo {
-  margin-bottom: 17px;
+  margin: 25px 0 35px 0;
+
   @media screen and (max-width: $break-medium - 1) {
     float: left;
     margin-right: 20px;

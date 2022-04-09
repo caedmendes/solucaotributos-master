@@ -85,7 +85,7 @@ module.exports = function (grunt) {
         copy: {
             // Create index file(copy homepage-1-index.html)
             html: {
-                src: '<%= directory.dist %>/homepage-1-index.html',
+                src: '<%= directory.dist %>/index.html',
                 dest: '<%= directory.dist %>/index.html'
             },
             styles: {
