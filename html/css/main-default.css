@@ -4073,8 +4073,8 @@ header.animated .b-ico-dropdown {
 @media screen and (min-width: 1171px) {
   .b-top-nav--bottom .b-top-nav__1level {
     padding: 0;
-    border-right: 1px solid #e88153;
-    box-shadow: 1px 0 1px #d0531b;
+    border-right: 1px solid #d8a04c;
+    box-shadow: 1px 0 1px #5b4320;
   }
 }
 @media screen and (min-width: 1171px) {
@@ -4087,7 +4087,7 @@ header.animated .b-ico-dropdown {
 }
 @media screen and (min-width: 1171px) {
   .b-top-nav--bottom .b-top-nav__1level > a:hover {
-    background: #d1622f;
+    background: #9f7638;
     box-shadow: inset 0 -2px 5px #78592a;
   }
 }
@@ -4100,7 +4100,7 @@ header.animated .b-ico-dropdown {
 @media screen and (min-width: 1171px) {
   .b-top-nav--bottom .b-top-nav__1level.is-active-top-nav__1level {
     border-radius: 0;
-    background: #d1622f;
+    background: #9f7638;
     box-shadow: inset 0 -2px 5px #78592a;
   }
 }
@@ -5537,7 +5537,7 @@ body .b-slider--thumb-visible .tp-bullets {
 }
 .b-carousel-secondary .bx-controls-direction .bx-next:hover,
 .b-carousel-secondary .bx-controls-direction .bx-prev:hover {
-  background: #e88153;
+  background: #d8a04c;
 }
 .b-carousel-secondary .bx-controls-direction .bx-next:after {
   content: "";
@@ -5574,7 +5574,7 @@ body .b-slider--thumb-visible .tp-bullets {
   line-height: 1.4;
 }
 .b-carousel-arr-square .bx-controls-direction a:hover {
-  background: #e88153;
+  background: #d8a04c;
 }
 
 .b-slider-arr-style-default .bx-controls-direction a.bx-prev, .b-slider-arr-style-default .bx-controls-direction a.bx-next {
@@ -11833,8 +11833,8 @@ h3.f-tabs-vertical__title {
   top: 0.5px;
 }
 [class*=b-view-switcher_].is-view-switcher__item-active {
-  color: #e88153;
-  border-color: #e88153;
+  color: #d8a04c;
+  border-color: #d8a04c;
 }
 
 .b-sort-panel {
@@ -12821,7 +12821,7 @@ h3.f-tabs-vertical__title {
   content: "";
   width: 5px;
   height: 5px;
-  background-color: #e88153;
+  background-color: #d8a04c;
   float: left;
   border-radius: 10px;
   margin: 2px;
@@ -12829,7 +12829,7 @@ h3.f-tabs-vertical__title {
 }
 .b-slider-range .ui-slider-handle span {
   color: #fff;
-  background-color: #e88153;
+  background-color: #d8a04c;
   padding: 4px 7px 3px;
   border-radius: 5px;
   position: absolute;
@@ -12844,7 +12844,7 @@ h3.f-tabs-vertical__title {
   position: absolute;
   border-style: solid;
   border-width: 4px;
-  border-color: #e88153 transparent transparent transparent;
+  border-color: #d8a04c transparent transparent transparent;
   left: 50%;
   top: 100%;
   margin-left: -4px;
@@ -13336,7 +13336,7 @@ h3.f-tabs-vertical__title {
 }
 
 .c-34 {
-  color: #e88153;
+  color: #d8a04c;
 }
 
 .c-s-35 {
@@ -13688,7 +13688,7 @@ h3.f-tabs-vertical__title {
 }
 
 .c-67 {
-  color: #d0531b;
+  color: #5b4320;
 }
 
 .c-68 {
@@ -15388,7 +15388,7 @@ h3.f-tabs-vertical__title {
 
 .b-option-item {
   float: right;
-  border-left: 1px solid #e88153;
+  border-left: 1px solid #d8a04c;
   height: 66px;
   padding: 0 23px 0 26px;
   cursor: pointer;
