@@ -10482,8 +10482,8 @@ body .b-slider--thumb-visible .tp-bullets {
   }
 }
 .b-search-map__name:after {
-  border-left: 1px solid #ea673d;
-  border-right: 1px solid #c9471d;
+  border-left: 1px solid #b58640;
+  border-right: 1px solid #8e6831;
   content: "";
   height: 100%;
   position: absolute;
@@ -10494,7 +10494,7 @@ body .b-slider--thumb-visible .tp-bullets {
   .b-search-map__name:after {
     border-width: 1px 0 1px 0;
     border-style: solid;
-    border-color: #ea673d transparent #c9471d;
+    border-color: #b58640 transparent #8e6831;
     bottom: 0;
     height: 2px;
     left: 0;
@@ -13560,11 +13560,11 @@ h3.f-tabs-vertical__title {
 }
 
 .c-35 {
-  color: #ea673d;
+  color: #b58640;
 }
 
 .c-36 {
-  color: #c9471d;
+  color: #8e6831;
 }
 
 .c-37 {
